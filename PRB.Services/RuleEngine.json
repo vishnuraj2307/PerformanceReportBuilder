@@ -1,0 +1,316 @@
+﻿[
+  {
+    "WorkflowName": "StageWorkFlow",
+    "Rules": [
+      {
+        "RuleName": "ReportStatusForAuthorI",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Author\") AND (input1.ReportStatus==\"Null\") AND (input1.ReportCommentry==\"Null\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Draft"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForAuthor",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Author\") AND (input1.ReportStatus==\"Generated\") AND (input1.ReportCommentry==\"Both\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer1A",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer1\") AND (input1.ReportStatus==\"Accept\") AND (input1.ReportCommentry==\"Both\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-2"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer1R",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer1\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Summary\" OR input1.ReportCommentry==\"Detailed\" OR input1.ReportCommentry==\"Summary and Detailed\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Draft"
+
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer2A",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer2\") AND (input1.ReportStatus==\"Accept\") AND (input1.ReportCommentry==\"Both\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Approver-1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer2RD",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer2\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Detailed\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer2RS",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer2\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Summary\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Draft"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForReviewer2RDS",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Reviewer2\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Summary and Detailed\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForApprover1A",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Approver1\") AND (input1.ReportStatus==\"Accept\") AND (input1.ReportCommentry==\"Both\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Approver-2"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForApprover1R",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Approver1\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Summary\" OR input1.ReportCommentry==\"Detailed\" OR input1.ReportCommentry==\"Summary and Detailed\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForApprover2A",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Approver2\") AND (input1.ReportStatus==\"Accept\") AND (input1.ReportCommentry==\"Both\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Completed"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "ReportStatusForApprover2R",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1.Role == \"Approver2\") AND (input1.ReportStatus==\"Reject\") AND (input1.ReportCommentry==\"Summary\" OR input1.ReportCommentry==\"Detailed\" OR input1.ReportCommentry==\"Summary and Detailed\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "Review-1"
+            }
+          }
+        }
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "WorkflowName": "AutomationWorkFlow",
+    "Rules": [
+      {
+        "RuleName": "ReportGenerator",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1 == \"Generate\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "1"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "DisclaimerFetcher",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1 == \"DisclaimerContent\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "5"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "SummaryFetcher",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1 == \"SummaryContent\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "6"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "DetailedReportGenerator",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1 != \"Generate\")  AND (input1 !=\"Summary\")   AND (input1 !=\"Disclaimer\")",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "2"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "SummaryReportGenerator",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1== \"Summary\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "3"
+            }
+          }
+        }
+      },
+      {
+        "RuleName": "DisclaimerGenerator",
+        "SuccessEvent": "10",
+        "ErrorMessage": "One or more adjust rules failed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "(input1 == \"Disclaimer\") ",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression", //Name of action you want to call
+            "Context": { //This is passed to the action as action context
+              "Expression": "4"
+            }
+          }
+        }
+      }
+    ]
+  }
+
+  
+
+]

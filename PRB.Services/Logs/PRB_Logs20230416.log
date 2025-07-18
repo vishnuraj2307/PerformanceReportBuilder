@@ -1,0 +1,78 @@
+2023-04-16 13:00:56.934 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 13:00:56.934 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:00:56.943 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 13:00:56.943 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 13:00:58.894 +05:30 [INF] Reports Fetched.
+
+2023-04-16 13:01:59.562 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:02:00.049 +05:30 [INF] Reports Fetched.
+
+2023-04-16 13:05:37.412 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:05:37.440 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 13:05:37.440 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:05:37.440 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 13:05:37.443 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 13:05:37.897 +05:30 [INF] Reports Fetched.
+
+2023-04-16 13:05:39.144 +05:30 [INF] Reports Fetched.
+
+2023-04-16 13:06:01.502 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:06:01.985 +05:30 [INF] Reports Fetched.
+
+2023-04-16 13:06:08.819 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 13:06:08.819 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 13:06:08.820 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 13:06:08.821 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 13:06:09.304 +05:30 [INF] Reports Fetched.
+
+2023-04-16 19:10:50.320 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 19:10:50.321 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 19:10:50.324 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 19:10:50.325 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 19:10:50.540 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 19:10:51.729 +05:30 [INF] Reports Fetched.
+
+2023-04-16 19:10:52.244 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 19:10:52.245 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 19:10:52.247 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 19:10:52.247 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 19:10:52.641 +05:30 [INF] Reports Fetched.
+
+2023-04-16 19:10:52.706 +05:30 [INF] Reports Fetched.
+
+2023-04-16 19:11:00.055 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 19:11:00.056 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 19:11:00.057 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 19:11:00.538 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-16 19:11:00.541 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-16 19:11:00.542 +05:30 [VRB] Initiating Rule Engine...
+2023-04-16 19:11:00.542 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-16 19:11:01.012 +05:30 [INF] Reports Fetched.
+
+2023-04-16 19:11:09.795 +05:30 [VRB] Fetching report status.
+2023-04-16 19:11:09.796 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-16 19:11:09.799 +05:30 [VRB] Fetching report status.
+2023-04-16 19:11:10.031 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-16 19:11:10.032 +05:30 [INF] Report statusR1.
+
+2023-04-16 19:11:10.260 +05:30 [INF] Report statusR1.
+
+2023-04-16 19:11:10.265 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-16 19:11:27.825 +05:30 [VRB] Fetching report status.
+2023-04-16 19:11:27.827 +05:30 [VRB] Fetching report status.
+2023-04-16 19:11:27.827 +05:30 [VRB] Fetching all TICKERS from Database for Jan 2023.
+2023-04-16 19:11:28.056 +05:30 [INF] Report statusC .
+
+2023-04-16 19:11:28.062 +05:30 [INF] Fetched all TICKERS from Database for Jan 2023.
+
+2023-04-16 19:11:28.062 +05:30 [INF] Report statusC .
+
+2023-04-16 19:11:28.071 +05:30 [VRB] Fetching all PDF file name and Paths...

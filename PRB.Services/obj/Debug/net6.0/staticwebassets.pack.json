@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Images\\DownArrow.jpg",
+      "PackagePath": "staticwebassets\\Images\\DownArrow.jpg"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Images\\Downward.jpg",
+      "PackagePath": "staticwebassets\\Images\\Downward.jpg"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Images\\UpArrow.jpg",
+      "PackagePath": "staticwebassets\\Images\\UpArrow.jpg"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Images\\Upward.jpg",
+      "PackagePath": "staticwebassets\\Images\\Upward.jpg"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Records\\Feb_2023_Merged.pdf",
+      "PackagePath": "staticwebassets\\Records\\Feb_2023_Merged.pdf"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Records\\Jan_2023_Merged.pdf",
+      "PackagePath": "staticwebassets\\Records\\Jan_2023_Merged.pdf"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Records\\Mar_2023_Merged.pdf",
+      "PackagePath": "staticwebassets\\Records\\Mar_2023_Merged.pdf"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\RichTextRender\\DisclaimerRender.html",
+      "PackagePath": "staticwebassets\\RichTextRender\\DisclaimerRender.html"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\RichTextRender\\SummaryRender.html",
+      "PackagePath": "staticwebassets\\RichTextRender\\SummaryRender.html"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Template\\DetailedReportTemplate1.docx",
+      "PackagePath": "staticwebassets\\Template\\DetailedReportTemplate1.docx"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Template\\DetailedReportTemplate2.docx",
+      "PackagePath": "staticwebassets\\Template\\DetailedReportTemplate2.docx"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Template\\DetailedReportTemplate3.docx",
+      "PackagePath": "staticwebassets\\Template\\DetailedReportTemplate3.docx"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Template\\DisclaimerReportTemplate.docx",
+      "PackagePath": "staticwebassets\\Template\\DisclaimerReportTemplate.docx"
+    },
+    {
+      "Id": "D:\\PRB.Services\\PRB.Services\\wwwroot\\Template\\SummaryReportTemplate.docx",
+      "PackagePath": "staticwebassets\\Template\\SummaryReportTemplate.docx"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PRB.Services.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PRB.Services.props",
+      "PackagePath": "build\\PRB.Services.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PRB.Services.props",
+      "PackagePath": "buildMultiTargeting\\PRB.Services.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PRB.Services.props",
+      "PackagePath": "buildTransitive\\PRB.Services.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

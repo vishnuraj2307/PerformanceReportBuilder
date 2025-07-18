@@ -1,0 +1,147 @@
+2023-04-07 22:33:05.007 +05:30 [INF] Application Running...
+2023-04-07 22:33:49.247 +05:30 [VRB] Fetching Username and Role Code... 
+2023-04-07 22:33:52.865 +05:30 [INF] raj@gmail.com logging in.
+
+2023-04-07 22:33:52.910 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-07 22:33:52.943 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-07 22:33:53.050 +05:30 [VRB] Initiating Rule Engine...
+2023-04-07 22:33:53.215 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-07 22:33:53.291 +05:30 [INF] Reports Fetched.
+
+2023-04-07 22:34:09.700 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-07 22:34:09.701 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-07 22:34:09.702 +05:30 [VRB] Initiating Rule Engine...
+2023-04-07 22:34:09.703 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-07 22:34:09.990 +05:30 [INF] Reports Fetched.
+
+2023-04-07 22:34:32.595 +05:30 [VRB] Fetching Username and Role Code... 
+2023-04-07 22:34:32.849 +05:30 [INF] raj@gmail.com logging in.
+
+2023-04-07 22:34:32.870 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-07 22:34:32.870 +05:30 [VRB] Initiating Rule Engine...
+2023-04-07 22:34:32.870 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-07 22:34:32.871 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-07 22:34:33.127 +05:30 [INF] Reports Fetched.
+
+2023-04-07 22:34:44.794 +05:30 [VRB] Fetching all TICKERS from Database for Feb 2023.
+2023-04-07 22:34:44.798 +05:30 [VRB] Fetching report status.
+2023-04-07 22:34:45.067 +05:30 [INF] Report statusC .
+
+2023-04-07 22:34:45.075 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:34:46.393 +05:30 [INF] Fetched all TICKERS from Database for Feb 2023.
+
+2023-04-07 22:34:56.192 +05:30 [VRB] Fetching report status.
+2023-04-07 22:34:56.192 +05:30 [VRB] Fetching all TICKERS from Database for Jan 2023.
+2023-04-07 22:34:56.444 +05:30 [INF] Fetched all TICKERS from Database for Jan 2023.
+
+2023-04-07 22:34:56.446 +05:30 [INF] Report statusC .
+
+2023-04-07 22:34:56.453 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:35:01.965 +05:30 [VRB] Fetching report status.
+2023-04-07 22:35:01.965 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:35:02.226 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:35:02.433 +05:30 [ERR] Something went wrong !
+2023-04-07 22:37:32.502 +05:30 [VRB] Fetching all TICKERS from Database for Feb 2023.
+2023-04-07 22:37:44.495 +05:30 [VRB] Fetching report status.
+2023-04-07 22:37:45.872 +05:30 [INF] Fetched all TICKERS from Database for Feb 2023.
+
+2023-04-07 22:38:11.546 +05:30 [INF] Report statusC .
+
+2023-04-07 22:38:21.408 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:38:36.746 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:38:41.433 +05:30 [VRB] Fetching report status.
+2023-04-07 22:38:41.433 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:38:47.637 +05:30 [ERR] Something went wrong !
+2023-04-07 22:38:58.481 +05:30 [VRB] Fetching all TICKERS from Database for Feb 2023.
+2023-04-07 22:39:02.145 +05:30 [VRB] Fetching report status.
+2023-04-07 22:39:02.147 +05:30 [INF] Fetched all TICKERS from Database for Feb 2023.
+
+2023-04-07 22:39:02.401 +05:30 [INF] Report statusC .
+
+2023-04-07 22:39:02.417 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:39:08.405 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:39:12.848 +05:30 [VRB] Fetching report status.
+2023-04-07 22:39:24.691 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:43:27.323 +05:30 [ERR] Something went wrong !
+2023-04-07 22:43:40.073 +05:30 [VRB] Fetching all TICKERS from Database for Jan 2023.
+2023-04-07 22:43:47.132 +05:30 [VRB] Fetching report status.
+2023-04-07 22:43:48.634 +05:30 [INF] Fetched all TICKERS from Database for Jan 2023.
+
+2023-04-07 22:44:30.550 +05:30 [INF] Report statusC .
+
+2023-04-07 22:44:30.600 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:47:20.739 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:47:26.832 +05:30 [VRB] Fetching report status.
+2023-04-07 22:47:28.292 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:48:42.099 +05:30 [ERR] Something went wrong !
+2023-04-07 22:48:51.651 +05:30 [VRB] Fetching report status.
+2023-04-07 22:48:51.651 +05:30 [VRB] Fetching all TICKERS from Database for Feb 2023.
+2023-04-07 22:48:51.907 +05:30 [INF] Fetched all TICKERS from Database for Feb 2023.
+
+2023-04-07 22:48:51.911 +05:30 [INF] Report statusC .
+
+2023-04-07 22:48:51.934 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:48:56.079 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:48:56.082 +05:30 [VRB] Fetching report status.
+2023-04-07 22:48:56.335 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:48:56.362 +05:30 [ERR] Something went wrong !
+2023-04-07 22:51:21.835 +05:30 [VRB] Fetching report status.
+2023-04-07 22:51:22.084 +05:30 [INF] Report statusC .
+
+2023-04-07 22:51:41.202 +05:30 [VRB] Fetching report status.
+2023-04-07 22:51:41.478 +05:30 [ERR] Something went wrong !
+2023-04-07 22:54:56.774 +05:30 [INF] Application Running...
+2023-04-07 22:55:06.698 +05:30 [INF] Application Running...
+2023-04-07 22:55:17.724 +05:30 [VRB] Fetching all Reports from Database.
+2023-04-07 22:55:17.736 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-07 22:55:17.840 +05:30 [VRB] Initiating Rule Engine...
+2023-04-07 22:55:18.001 +05:30 [INF] RuleExecutor returned the values.
+
+2023-04-07 22:55:20.915 +05:30 [INF] Reports Fetched.
+
+2023-04-07 22:55:23.380 +05:30 [VRB] Fetching report status.
+2023-04-07 22:55:23.380 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:55:23.709 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:55:24.782 +05:30 [ERR] Something went wrong !
+2023-04-07 22:55:52.744 +05:30 [INF] Application Running...
+2023-04-07 22:56:05.973 +05:30 [INF] Application Running...
+2023-04-07 22:56:32.323 +05:30 [VRB] Fetching report status.
+2023-04-07 22:56:35.736 +05:30 [ERR] Something went wrong !
+2023-04-07 22:56:48.261 +05:30 [VRB] Fetching report status.
+2023-04-07 22:56:48.318 +05:30 [VRB] Fetching all TICKERS from Database for Feb 2023.
+2023-04-07 22:56:48.580 +05:30 [INF] Report statusC .
+
+2023-04-07 22:56:48.597 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:56:49.674 +05:30 [INF] Fetched all TICKERS from Database for Feb 2023.
+
+2023-04-07 22:56:52.047 +05:30 [VRB] Fetching report status.
+2023-04-07 22:56:52.047 +05:30 [VRB] Fetching all TICKERS from Database for Mar 2023.
+2023-04-07 22:56:52.313 +05:30 [INF] Fetched all TICKERS from Database for Mar 2023.
+
+2023-04-07 22:56:52.348 +05:30 [ERR] Something went wrong !
+2023-04-07 22:57:04.474 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:57:12.160 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:57:16.111 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:57:32.719 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:57:39.165 +05:30 [INF] Getting holding Details.
+
+2023-04-07 22:58:05.536 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:58:05.597 +05:30 [VRB] Updating Detailed report values...
+2023-04-07 22:58:06.365 +05:30 [INF] Report updated into Database.
+
+2023-04-07 22:58:27.816 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:58:33.064 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 22:58:48.890 +05:30 [VRB] Fetching all PDF file name and Paths...
+2023-04-07 23:04:58.298 +05:30 [INF] Initiating Rule Engine Executor...
+2023-04-07 23:04:58.405 +05:30 [VRB] Initiating Rule Engine...
+2023-04-07 23:04:58.603 +05:30 [INF] RuleExecutor returned the values.
+
